@@ -8,9 +8,9 @@ export const ContextProvider = ({ children }) => {
         headingLetterSpacing: -3,
         colors: {
             orange: "#FF5800",
-            blue: "#007FFF",
+            blue: "#0011FF",
             lightblue: "#67AEFA",
-            white: "#EEEEEE",
+            white: "white",
             black: "#3A3B3A",
         }
     }

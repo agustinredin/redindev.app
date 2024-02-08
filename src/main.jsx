@@ -4,7 +4,6 @@ import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import './GlobalStyles.css'
 import '@fontsource/geist-sans/700.css';
 
-
 const theme = extendTheme({
   fonts: {
     heading: `'Geist Sans', sans-serif`,
@@ -14,7 +13,7 @@ const theme = extendTheme({
     primary: "#FF5800",
     secondary: "#007FFF",
     accent: "#67AEFA",
-    white: "#EEEEEE",
+    white: "white",
     black: "#3A3B3A"
   }
 })
