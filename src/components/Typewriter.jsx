@@ -1,5 +1,5 @@
 import Typical from 'react-typical';
-import { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 
 const Typewriter = ({ messages, delay, wrapperTag }) => {
     const steps = messages.flatMap(message => [message, delay]);

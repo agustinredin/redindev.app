@@ -15,6 +15,9 @@ const theme = extendTheme({
     accent: "#67AEFA",
     white: "white",
     black: "#3A3B3A"
+  },
+  breakpoints: {
+    custom1: "1000px"
   }
 })
 
