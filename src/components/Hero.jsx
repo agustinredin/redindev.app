@@ -22,9 +22,9 @@ const Hero = () => {
     return (
         <chakra.Box m={'auto'} minH={'100vh'} w={styles.containerWidth}>
                 <chakra.Flex direction="column">
-                    <chakra.Flex h={{ base: "20vh", md: "15vh" }} justifyContent={'space-between'} alignItems={'center'}>
-                        <chakra.Box as="button" w='6rem' h='6rem' overflow='hidden' boxShadow={'lg'} rounded={55}  border='2px solid var(--portfolio-orange)'>
-                            <chakra.Image src='foto hero.png' w='100%' pos='relative' top='-20px'>
+                    <chakra.Flex h={{ base: "20vh", md: "15vh" }} justifyContent={'space-between'} alignItems={'end'}>
+                        <chakra.Box w="40px" h="40px" as="button" overflow='hidden' boxShadow={'lg'} rounded={'full'} border='2px solid var(--portfolio-orange)'>
+                            <chakra.Image src='foto hero.png' w='100%' h='100%' objectFit='cover'>
                             </chakra.Image>
                         </chakra.Box>
                         <chakra.IconButton
@@ -61,8 +61,8 @@ const Hero = () => {
 
                     </chakra.Box>
                     
-                    <chakra.Flex ml={{sm: '0px', md: '1em', lg: '2em'}} justifyContent={'center'} w={{sm:'100%', md: '75%', lg: '60%', xl: '50%'}} px={{base: '2rem', md: '4rem'}} h={{base: '8em'}} className={'button-custom'} mt={{sm: '0.5rem', md: '2em'}} alignItems={'center'} position="relative">
-                        <chakra.Text className='highlight' fontSize={{base: '30', xl: '50'}}> Get in touch </chakra.Text>
+                    <chakra.Flex ml={{sm: '0px', md: '1em', lg: '2em'}} justifyContent={'center'} w={{sm:'100%', md: '75%', lg: '60%', xl: '50%'}} px={{base: '2rem', md: '4rem'}} h={{base: '8em'}} className={'button-custom'} mt={{sm: '0.5rem', md: '10em', xl: '6em'}} alignItems={'center'} position="relative">
+                        <chakra.Text className='highlight' fontSize={{base: '30', xl: '40'}}> Get in touch </chakra.Text>
                         <chakra.Icon mx={'0.15em'} fontSize={'20'} as={HiArrowUpRight}/>
                     </chakra.Flex>
                 </chakra.Flex>

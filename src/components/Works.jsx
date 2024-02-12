@@ -11,7 +11,7 @@ const Works = () => {
     let data = [
         {
             colSpan: 3,
-            rowSpan: 3,
+            rowSpan: 1,
             duration: {
                 fromYear: 2021,
                 toYear: 2023
@@ -24,7 +24,7 @@ const Works = () => {
         },
         {
             colSpan: 2,
-            rowSpan: 3,
+            rowSpan: 1,
             duration: {
                 fromYear: 2022,
                 toYear: 2022
@@ -32,12 +32,12 @@ const Works = () => {
             title: 'Gamarra',
             logo: 'gamarra.png',
             tags: ['Landing page', 'Personal trainer', 'Bootstrap 5', 'Responsive design'],
-            body: 'Landing page for a personal trainer. Built using <b>Bootstrap</b> and <b>SASS</b> for styles and applying <b>responsive design</b> principles. The page includes a contact form for potential clients to get in touch and pricing options to see what services are offered.',
+            body: 'Landing page for a personal trainer. Built using <b>Bootstrap</b> and <b>SASS</b> for styles and applying <b>responsive design</b> principles. The page includes a contact form for potential clients.',
             tech: ['html', 'sass', 'bootstrap']
         },
         {
             colSpan: 2,
-            rowSpan: 3,
+            rowSpan: 1,
             duration: {
                 fromYear: 2023,
                 toYear: 2023
@@ -50,7 +50,7 @@ const Works = () => {
         },
         {
             colSpan: 3,
-            rowSpan: 2,
+            rowSpan: 1,
             duration: {
                 fromYear: 2023,
                 toYear: 2024
@@ -63,11 +63,19 @@ const Works = () => {
         }
     ]
 
+
     return (
-        <chakra.Grid
+        <chakra.SimpleGrid columns={{ base: 2, md: 4 }} spacing={5} p={5} autoFlow="row dense">
+            {
+                data.map((elem, i) => (
+                    <Work elem={elem} key={i}/>
+                ))
+            }
+        </chakra.SimpleGrid>
+        /*{ <chakra.Grid
             w={styles.containerWidth} m="auto" pt={'30vh'}
             minH="150vh"
-            templateRows="repeat(10, 1fr)"
+            templateRows="repeat(2, 1fr)"
             templateColumns="repeat(5, 1fr)"
             gap={5}
         >
@@ -81,7 +89,7 @@ const Works = () => {
                     <Work elem={elem} key={i}/>
                 ))
             }
-        </chakra.Grid>
+        </chakra.Grid> }*/
     )
 }
 
