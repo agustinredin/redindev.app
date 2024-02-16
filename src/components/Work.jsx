@@ -25,18 +25,18 @@ const Work = ({ elem }, key) => {
         /*To do: 5 ajustar grillas segun viewport para que sea bento grid */
         
         <chakra.Box gridColumn='span 2' gridRow='span 1' boxShadow={'xl'} borderRadius={'3%'} p='2rem'>
-            <motion.div variants={fadeInAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true }} custom={key}>
-                <chakra.Box display={'flex'} flexDirection={{ base: 'row', md: 'row' }} justifyContent={'space-between'} m='0' p='0'>
+            <motion.div style={{height: '100%'}} variants={fadeInAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true }} custom={key}>
+                <chakra.Box h={'20%'} display={'flex'} flexDirection={{ base: 'row', md: 'row' }} justifyContent={'space-between'} m='0' p='0'>
                     <chakra.Flex flex={2} flexDirection='column' justifyContent='center' alignItems='flex-start'>
                         <chakra.Text fontSize={{ base: 'md', md: 'xl' }}>{durationString}</chakra.Text>
-                        <chakra.Heading fontSize={{ base: '6xl', md: '8xl', lg: '9xl' }}>{elem.title}</chakra.Heading>
+                        <chakra.Heading fontSize={{ base: '3xl', md: '5xl', lg: '6xl' }}>{elem.title}</chakra.Heading>
                     </chakra.Flex>
                     <chakra.Flex flex={1} justifyContent={'flex-end'}>
                         <chakra.Image src='foto hero.png' w='6rem' h='6rem' objectFit='cover' alignSelf={'center'}>
                         </chakra.Image>
                     </chakra.Flex>
                 </chakra.Box>
-                <chakra.Box display='flex' flexDirection={'column'} justifyContent='space-around'>
+                <chakra.Box h={'80%'} display='flex' flexDirection={'column'} justifyContent='space-around'>
                     <chakra.Flex flexDirection={'column'} gap='4' overflow='hidden'>
                         <chakra.Flex flexDirection={'row'} wrap='wrap' gap='4'>
                             {elem.tags.map((tag, index) => (

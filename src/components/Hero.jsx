@@ -22,7 +22,7 @@ const Hero = () => {
     return (
         <chakra.Box m={'auto'} minH={'100vh'} w={styles.containerWidth}>
                 <chakra.Flex direction="column">
-                    <chakra.Flex h={{ base: "20vh", md: "15vh" }} justifyContent={'space-between'} alignItems={'end'}>
+                    <chakra.Flex h={{ base: "10vh", md: "10vh" }} justifyContent={'space-between'} alignItems={'end'}>
                         <chakra.Box w="40px" h="40px" as="button" overflow='hidden' boxShadow={'lg'} rounded={'full'} border='2px solid var(--portfolio-orange)'>
                             <chakra.Image src='foto hero.png' w='100%' h='100%' objectFit='cover'>
                             </chakra.Image>
@@ -36,7 +36,7 @@ const Hero = () => {
                             color={'black'}
                             aria-label="Abrir menú" />
                     </chakra.Flex>
-                    <chakra.Flex justifyContent={'end'} w='100%' mb={{sm: 10}}>
+                    <chakra.Flex justifyContent={'end'} w='100%' my={{sm: 10}}>
                         <chakra.Flex w='fit-content' h={5} padding='15px' justifyContent={'end'} alignItems='center' mt={{ md: 10 }} rounded={5} background="rgb(150 255 150 / 50%)">
                             <chakra.Divider display='inline' h='2' w='2' mr='2' rounded={5} bg={styles.colors.black}></chakra.Divider> <chakra.Text>Available for work</chakra.Text>
                         </chakra.Flex>
