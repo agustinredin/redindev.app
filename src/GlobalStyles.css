@@ -6,6 +6,11 @@
 --portfolio-black:  #3A3B3A;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+
 @font-face {
     font-family: 'PP Neue';
     font-style: normal;
@@ -78,6 +83,11 @@ body {
 }
 .stroke-black {
     -webkit-text-stroke: 2px var(--portfolio-black);
+}
+
+.stroke-black-xxl {
+    -webkit-text-stroke: 5px #1a1a1a;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
 }
 
 /* For WebKit browsers (Chrome, Safari) */
