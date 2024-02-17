@@ -24,7 +24,7 @@ const Work = ({ elem }, key) => {
     }
 
     return (
-        /*To do: 1 hacer logo el bg en greyscale y con gradient a transparente hacia el lado izq */
+        /*To do: 1 logo el bg en greyscale y con gradient a transparente hacia el lado izq */
         /*To do: 2 achicar titulo segun viewport */
         /*To do: 3 darle un titulo a tech usada con geist mono y ajustar ese div abajo de todo de la caja */
         /*To do: 4 reagregar titulo general a seccion */
