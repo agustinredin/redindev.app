@@ -67,17 +67,17 @@ const Works = () => {
     return (
         <chakra.Box minH={'150vh'} w={styles.containerWidth} m="auto" pt={'30vh'}>
             <chakra.Box position='relative' mb={{base: '0vh', md: '15vh', lg: '10vh'}}>
-                <chakra.Heading fontSize={{ base: '7xl', md: '8xl', lg: '9xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing} mb='0.5rem'>
+                <chakra.Heading fontSize={{ base: '7xl', md: '8xl', xl: '9xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing} mb='0.5rem'>
                     Projects 
                 </chakra.Heading>
-                <chakra.Heading position='absolute' top='-20%' opacity='0.7' left='50%' zIndex={9999} display={'block'} fontSize={{ base: '250', md: '300', lg: '350' }} letterSpacing={styles.headingLetterSpacing} className='transparent stroke-black-xxl'>
+                <chakra.Heading position='absolute' top='-15%' opacity='0.1' left='40%' zIndex={9999} display={'block'} fontSize={{ base: '250', md: '300', xl: '350' }} letterSpacing={styles.headingLetterSpacing}>
                     &
                 </chakra.Heading>
-                <chakra.Heading fontSize={{ base: '7xl', md: '8xl', lg: '9xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing}>
+                <chakra.Heading fontSize={{ base: '7xl', md: '8xl', xl: '9xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing}>
                     contributions 
                 </chakra.Heading>
             </chakra.Box>
-            <chakra.SimpleGrid columns={{ base: 2, md: 4 }} spacing={5} p={5} autoFlow="row dense">
+            <chakra.SimpleGrid columns={{ base: 2, md: 4 }} spacing={5} autoFlow="row dense">
             {
                 data.map((elem, i) => (
                     <Work elem={elem} key={i}/>

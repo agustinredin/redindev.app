@@ -12,9 +12,15 @@ const Work = ({ elem }, key) => {
         animate: (index) => ({
             opacity: 1,
             transition: {
-                delay: 0.15 * index
+                delay: 3 * index
             }
         }),
+        exit: {
+            opacity: 0,
+            transition: {
+                delay: 2
+            }
+        }
     }
 
     return (
