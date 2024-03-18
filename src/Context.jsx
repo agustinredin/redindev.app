@@ -9,7 +9,7 @@ export const ContextProvider = ({ children }) => {
         containerWidth: {
             base: '90vw', 
             md: '80vw', 
-            lg: '70vw'
+            /* lg: '70vw' */
         },
         colors: {
             orange: "#FF5800",
@@ -17,7 +17,27 @@ export const ContextProvider = ({ children }) => {
             lightblue: "#67AEFA",
             white: "white",
             black: "#3A3B3A",
-        }
+        },
+        titleAnimationVariants: {
+            initial: {
+                opacity: 0,
+                y: -20
+            },
+            animate: {
+                opacity: 1,
+                y: 0,
+                transition: {
+                    duration: 0.5
+                }
+            },
+            exit: {
+                opacity: 0,
+                y: 20,
+                transition: {
+                    duration: 0.5
+                }
+            },
+          }
     }
 
     return (

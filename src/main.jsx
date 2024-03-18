@@ -17,7 +17,12 @@ const theme = extendTheme({
     black: "#3A3B3A"
   },
   breakpoints: {
-    custom1: "1000px"
+    base: '0em',
+    sm: '30em',
+    md: '48em',
+    lg: '62em',
+    xl: '80em',
+    '2xl': '96em',
   }
 })
 
