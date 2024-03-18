@@ -1,7 +1,7 @@
 import React from 'react'
 import * as chakra from '@chakra-ui/react'
 import { appContext } from '../../Context'
-import { motion, resolveMotionValue } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 //iconos
 import { SiBootstrap } from "react-icons/si";

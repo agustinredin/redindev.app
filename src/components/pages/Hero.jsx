@@ -2,7 +2,6 @@ import * as chakra from '@chakra-ui/react'
 import { useContext } from 'react'
 import { appContext } from '../../Context.jsx'
 import Typewriter from '../ui/Typewriter.jsx'
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import { HiArrowUpRight } from "react-icons/hi2";
 
 const Hero = () => {

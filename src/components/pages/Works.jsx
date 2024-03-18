@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import * as chakra from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import { appContext } from '../../Context.jsx'

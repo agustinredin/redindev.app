@@ -5,7 +5,7 @@ import LinkButton from '../ui/LinkButton.jsx'
 import { motion } from 'framer-motion'
 import { FaGithub, FaLinkedin } from 'react-icons/fa6'
 import { TbMailFilled } from "react-icons/tb";
-import { FaPhone, FaCalendarPlus } from "react-icons/fa6";
+import { FaPhone, FaCalendarPlus, FaFilePdf } from "react-icons/fa6";
 const About = () => {
     const { styles } = React.useContext(appContext)
 
@@ -67,6 +67,7 @@ const About = () => {
                                         <LinkButton icon={<TbMailFilled size='25' />} title='Mail' href='mailto:agustintomasredin@gmail.com' _bgColor='#bf211e' _textColor='white' />
                                         <LinkButton icon={<FaPhone size='20' />} title='Phone' href='tel:+5491141850218' _bgColor='#3fbf3a' _textColor='white' />
                                         <LinkButton icon={<FaCalendarPlus size='18' />} title='Calendly' href='https://calendly.com/agustintomasredin' _bgColor='#4144ed' _textColor='white' />
+                                        <LinkButton icon={<FaFilePdf size='18' />} title='Resume' href='https://drive.google.com/file/d/1X1s-VTXB_Q00S1YpvHvmIJkx0R0FAJfM/view?usp=drive_link' _bgColor='white' _textColor='#1a202c' _border={true}/>
                                     </chakra.Flex>
                                 </motion.div>
                             </chakra.Flex>

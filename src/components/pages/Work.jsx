@@ -1,8 +1,5 @@
-import React from 'react';
 import * as chakra from '@chakra-ui/react';
-import { motion, resolveMotionValue } from 'framer-motion';
-import { appContext } from '../../Context.jsx'
-import { HiArrowUpRight } from "react-icons/hi2";
+import { motion } from 'framer-motion';
 
 //iconos
 import { TbBrandVite } from "react-icons/tb";
