@@ -172,6 +172,17 @@ body {
     left: -2px;
   }
 
+  @media only screen and (max-width: 480px) {
+    .custom-cursor {
+      display: none;
+    }
+  
+    .custom-cursor-text {
+      display: none;
+    }
+  
+  }
+
   a:hover,a:focus,button:hover,button:focus {
     cursor: none !important;
   }
