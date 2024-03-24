@@ -68,7 +68,7 @@ const Timeline = () => {
     return (
         <chakra.Box minH={'150vh'} w={styles.containerWidth} m="auto" pt={'30vh'}>
             <chakra.Box position='relative' mb={{ base: '10vh', md: '15vh', lg: '20vh' }} h={'20vh'} id='sectionTitle-timeline'>
-                <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '-400px' }}>
+                <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -200px 0px' }}>
                     <chakra.Heading fontSize={{ base: '15vw', md: '8xl', xl: '9xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing} mb='0.5rem'>
                         Timeline
                     </chakra.Heading>
@@ -167,7 +167,7 @@ const TimeLineItem = ({ item, isLastChild, styles }, key) => {
 const TimelineItemDescription = ({ item, styles }) => {
     let durationString = item.fromYear == item.toYear ? item.fromYear : `${item.fromYear} - ${item.toYear}`
     return (
-        <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '-400px' }}>
+        <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -300px 0px' }}>
             <chakra.Flex flexDirection="column" h={{ base: '', md: '100%' }} p='5%' justify={'center'}>
                 <chakra.Text className={'portfolio-blue-hex'} fontSize={{ base: '2xl', md: '2xl' }}>{durationString}</chakra.Text>
                 <chakra.Heading fontSize={{ base: '3xl', md: '2xl', lg: '3xl' }}>{item.title}</chakra.Heading>

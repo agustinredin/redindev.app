@@ -180,6 +180,10 @@ body {
     .custom-cursor-text {
       display: none;
     }
+
+    html {
+      font-size: 80%;
+    }
   
   }
 

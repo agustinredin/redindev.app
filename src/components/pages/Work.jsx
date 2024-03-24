@@ -62,7 +62,7 @@ const Work = ({ elem }, key) => {
 
     return (
         <chakra.Box as='a' gridColumn='span 2' gridRow='span 1' onMouseEnter={onOpen} onMouseLeave={onClose} key={key}>
-            <motion.div style={{ minHeight: '450px', height: '100%', position: 'relative' }} variants={fadeInAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '-80px' }} custom={elem.key}>
+            <motion.div style={{ minHeight: '450px', height: '100%', position: 'relative' }} variants={fadeInAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -25px 0px' }} custom={elem.key}>
                 <chakra.Fade as='div' in={!isOpen} style={{ height: '100%' }}>
                     <chakra.Box p='5%' h='100%' boxShadow={'xl'} borderRadius={'3%'} bg='white'>
                         <chakra.Box h={'20%'} display={'flex'} flexDirection={{ base: 'row', md: 'row' }} justifyContent={'space-between'} m='0'>

@@ -78,7 +78,7 @@ const Skills = () => {
           skillItems.map((item, key) => {
             
             return(
-              <motion.span key={key} variants={fadeInAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin:'-20px' }} custom={key}>
+              <motion.span key={key} variants={fadeInAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin:'-15px' }} custom={key}>
                 <SkillItem item={item} />
               </motion.span>
             )

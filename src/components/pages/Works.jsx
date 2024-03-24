@@ -70,7 +70,7 @@ const Works = () => {
     return (
         <chakra.Box minH={'150vh'} w={styles.containerWidth} m="auto" pt={'30vh'}>
             <chakra.Box position='relative' mb={{ base: '10vh', md: '15vh', lg: '20vh' }} h={'50vh'}>
-            <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '-400px' }} id='sectionTitle-works'>
+            <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -300px 0px' }} id='sectionTitle-works'>
                 <chakra.Box pt='5vh' pos='relative'>
                         <chakra.Heading fontSize={{ base: '15vw', md: '8xl', xl: '9xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing} mb='0.5rem'>
                             Projects

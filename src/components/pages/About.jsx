@@ -14,7 +14,7 @@ const About = () => {
         <>
             <chakra.Box minH={'50vh'} w={styles.containerWidth} m="auto" pt={'15vh'}>
                 <chakra.Flex align='center' position='relative' mb={{ base: '10vh', md: '15vh', lg: '20vh' }} h={'20vh'}>
-                    <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '-200px' }}>
+                    <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -250px 0px' }}>
                         <chakra.Heading fontSize={{ base: '15vw', md: '8xl', xl: '9xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing} mb='0.5rem' id='sectionTitle-about'>
                             About me
                         </chakra.Heading>
@@ -30,7 +30,7 @@ const About = () => {
                         </chakra.GridItem>
                         <chakra.GridItem gridColumn='span 2' h='fit-content' marginBottom='20vh'>
                             <chakra.Flex flexDirection="column" h='100%' p={{ base: '5%', lg: '0 15% 0 5%' }} justify={'center'}>
-                                <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '-240px' }}>
+                                <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -120px 0px' }}>
                                     <chakra.Heading fontSize={{ base: '3xl', md: '2xl', lg: '3xl' }}>Agustin</chakra.Heading>
                                     <chakra.Text fontSize={{ base: '2xl', md: '2xl' }} p={'1% 0 6% 0'}>
                                         I&apos;m Agustin, a <b>21 year-old Fullstack Developer</b> from Argentina. I started this journey in <b>2021</b> and I&apos;ve
@@ -40,7 +40,7 @@ const About = () => {
                                     </chakra.Text>
                                 </motion.div>
                                 {/*  */}
-                                <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '-340px' }}>
+                                <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -160px 0px' }}>
                                     <chakra.Heading fontSize={{ base: '3xl', md: '2xl', lg: '3xl' }}>Objectives</chakra.Heading>
                                     <chakra.Text fontSize={{ base: '2xl', md: '2xl' }} p={'1% 0 6% 0'}>
                                         My primary goal is to <b>be part of the IT job market</b> with
@@ -50,7 +50,7 @@ const About = () => {
                                     </chakra.Text>
                                 </motion.div>
                                 {/*  */}
-                                <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '-440px' }}>
+                                <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -200px 0px' }}>
                                     <chakra.Heading fontSize={{ base: '3xl', md: '2xl', lg: '3xl' }}>Hobbies</chakra.Heading>
                                     <chakra.Text fontSize={{ base: '2xl', md: '2xl' }} p={'1% 0 6% 0'}>
                                         I like to <b>go out clubbing</b> once in a while.
@@ -59,7 +59,7 @@ const About = () => {
                                     </chakra.Text>
                                 </motion.div>
                                 {/*  */}
-                                <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '-200px' }}>
+                                <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -150px 0px' }}>
                                     <chakra.Heading fontSize={{ base: '3xl', md: '2xl', lg: '3xl' }}>Contact links</chakra.Heading>
                                     <chakra.Flex alignContent='center' gap='2rem' p={'2% 0 8% 0'} flexWrap={'wrap'}>
                                         <LinkButton icon={<FaGithub size='25' />} title='GitHub' href='https://github.com/agustinredin' _bgColor='#1a202c' _textColor='white' />
