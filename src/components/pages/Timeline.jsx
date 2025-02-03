@@ -66,22 +66,24 @@ const Timeline = () => {
     ]
 
     return (
-        <chakra.Box minH={'150vh'} w={styles.containerWidth} m="auto" pt={'30vh'}>
-            <chakra.Box position='relative' mb={{ base: '10vh', md: '15vh', lg: '20vh' }} h={'20vh'} id='sectionTitle-timeline'>
-                <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -200px 0px' }}>
-                    <chakra.Heading fontSize={{ base: '15vw', md: '8xl', xl: '9xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing} mb='0.5rem'>
-                        Timeline
-                    </chakra.Heading>
-                </motion.div>
-            </chakra.Box>
-            <chakra.Box>
-                {
-                    timelineData.map((item, key) => (
-                        <TimeLineItem item={item} isLastChild={item.idx == timelineData.length - 1} key={key} styles={styles} />
-                    ))
-                }
-            </chakra.Box>
-        </chakra.Box>
+        <>
+        </>
+        // <chakra.Box minH={'150vh'} w={styles.containerWidth} m="auto" pt={'10vh'}>
+        //     <chakra.Box position='relative' mb={{ base: '10vh', md: '15vh', lg: '20vh' }} h={'20vh'} id='sectionTitle-timeline'>
+        //         <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -200px 0px' }}>
+        //             <chakra.Heading fontSize={{ base: '15vw', md: '8xl', xl: '9xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing} mb='0.5rem'>
+        //                 Timeline
+        //             </chakra.Heading>
+        //         </motion.div>
+        //     </chakra.Box>
+        //     <chakra.Box>
+        //         {
+        //             timelineData.map((item, key) => (
+        //                 <TimeLineItem item={item} isLastChild={item.idx == timelineData.length - 1} key={key} styles={styles} />
+        //             ))
+        //         }
+        //     </chakra.Box>
+        // </chakra.Box>
 
     )
 }

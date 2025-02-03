@@ -1,7 +1,7 @@
 import Typical from 'react-typical';
 import { useRef } from 'react'
 
-const Typewriter = ({ messages, delay, wrapperTag }) => {
+const Typewriter = ({ messages, delay, wrapperTag, loop }) => {
     const steps = messages.flatMap(message => [message, delay]);
     const elementRef = useRef(null)
 
@@ -9,7 +9,7 @@ const Typewriter = ({ messages, delay, wrapperTag }) => {
         <div ref={elementRef}>
             <Typical
                 steps={steps}
-                loop={Infinity}
+                loop={loop ? Infinity : 1}
                 wrapper={wrapperTag}
             />
         </div>

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root{
 --portfolio-orange:  #FF5800;
 --portfolio-blue:  #0011FF;
@@ -7,9 +11,10 @@
 }
 
 #root {
+  min-height: 100svh !important;
   background-image:
-  linear-gradient(to right, rgb(246 246 246) 1px, transparent 1px),
-  linear-gradient(to bottom, rgb(246 246 246) 1px, transparent 1px);
+  linear-gradient(to right, rgb(230 230 230) 1px, transparent 1px),
+  linear-gradient(to bottom, rgb(230 230 230) 1px, transparent 1px);
 background-size: 2.5rem 2.5rem;
 background-position: center center;
 }
@@ -30,6 +35,14 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 } 
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("../font-heading.ttf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
     font-family: 'PP Neue';

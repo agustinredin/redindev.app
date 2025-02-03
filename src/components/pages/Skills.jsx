@@ -26,23 +26,23 @@ const Skills = () => {
   const { styles } = React.useContext(appContext)
 
   let skillItems = [
-    { icon: <SiBootstrap />, title: 'Bootstrap' },
-    { icon: <SiChakraui />, title: 'ChakraUI' },
-    { icon: <SiCss3 />, title: 'CSS3' },
-    { icon: <SiCsharp />, title: 'C#' },
-    { icon: <SiDotnet />, title: '.NET Framework' },
-    { icon: <SiExpress />, title: 'Express' },
-    { icon: <SiFirebase />, title: 'Firebase' },
-    { icon: <SiHtml5 />, title: 'HTML5' },
-    { icon: <SiJavascript />, title: 'JavaScript' },
-    { icon: <SiMysql />, title: 'MySQL' },
-    { icon: <SiNodedotjs />, title: 'Node.js' },
-    { icon: <SiPostman />, title: 'Postman' },
-    { icon: <SiReact />, title: 'React' },
-    { icon: <SiReactrouter />, title: 'React Router' },
-    { icon: <SiSass />, title: 'Sass' },
-    { icon: <SiVisualbasic />, title: 'Visual Basic' },
-    { icon: <TbBrandVite />, title: 'Vite' }
+    { icon: <SiBootstrap color="var(--portfolio-orange"/>, title: 'Bootstrap' },
+    { icon: <SiChakraui color="var(--portfolio-orange"/>, title: 'ChakraUI' },
+    { icon: <SiCss3 color="var(--portfolio-orange"/>, title: 'CSS3' },
+    { icon: <SiCsharp color="var(--portfolio-orange"/>, title: 'C#' },
+    { icon: <SiDotnet color="var(--portfolio-orange"/>, title: '.NET Framework' },
+    { icon: <SiExpress color="var(--portfolio-orange"/>, title: 'Express' },
+    { icon: <SiFirebase color="var(--portfolio-orange"/>, title: 'Firebase' },
+    { icon: <SiHtml5 color="var(--portfolio-orange"/>, title: 'HTML5' },
+    { icon: <SiJavascript color="var(--portfolio-orange"/>, title: 'JavaScript' },
+    { icon: <SiMysql color="var(--portfolio-orange"/>, title: 'MySQL' },
+    { icon: <SiNodedotjs color="var(--portfolio-orange"/>, title: 'Node.js' },
+    { icon: <SiPostman color="var(--portfolio-orange"/>, title: 'Postman' },
+    { icon: <SiReact color="var(--portfolio-orange"/>, title: 'React' },
+    { icon: <SiReactrouter color="var(--portfolio-orange"/>, title: 'React Router' },
+    { icon: <SiSass color="var(--portfolio-orange"/>, title: 'Sass' },
+    { icon: <SiVisualbasic color="var(--portfolio-orange"/>, title: 'Visual Basic' },
+    { icon: <TbBrandVite color="var(--portfolio-orange"/>, title: 'Vite' }
   ]
 
 
@@ -65,11 +65,11 @@ const Skills = () => {
 }
 
   return (
-    <chakra.Box minH={'50vh'} w={styles.containerWidth} m="auto" pt={'15vh'} pb={'5vh'}>
-            <chakra.Flex align='center' position='relative' mb={{ base: '10vh', md: '15vh', lg: '20vh' }} h={'20vh'}>
+    <chakra.Box minH={'50vh'} w={styles.containerWidth} m="auto" pb={'5vh'}>
+            <chakra.Flex align='center' position='relative' mb={{ base: '5vh', md: '7vh' }} h={'20vh'} justifyContent={'center'}>
                 {/* <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '-200px' }}> */}
-                    <chakra.Heading fontSize={{ base: '15vw', md: '8xl', xl: '9xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing} mb='0.5rem' id='sectionTitle-skills'>
-                        Skills
+                    <chakra.Heading fontSize={{ base: '10vw', md: '5xl', xl: '7xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing}  mb='0.5rem' id='sectionTitle-skills'>
+                        Skills <span className='transparent stroke-black'>& Tools</span>
                     </chakra.Heading>
                 {/* </motion.div> */}
             </chakra.Flex>
@@ -91,7 +91,7 @@ const Skills = () => {
 
 const SkillItem = ({item}) => {
   return (
-    <chakra.Flex alignItems='center' rounded='5' border='1px solid var(--portfolio-blue)' px='1rem' fontSize='40'>
+    <chakra.Flex alignItems='center' rounded='10' px='1rem' fontSize='40' className="transition-transform hover:scale-[1.02]">
         {item.icon}
         <chakra.Text pl='1rem'>{item.title}</chakra.Text>
     </chakra.Flex>

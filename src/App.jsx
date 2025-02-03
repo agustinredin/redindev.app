@@ -1,18 +1,30 @@
-import { About, Hero, Works, Skills, CustomCursor, Timeline, StickyGradient, Navbar } from "./components";
-import * as chakra from '@chakra-ui/react'
+import {
+  About,
+  Hero,
+  Works,
+  Skills,
+  CustomCursor,
+  Timeline,
+  StickyGradient,
+  Navbar,
+} from "./components";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
+import * as chakra from "@chakra-ui/react";
 import ContextProvider from "./Context";
+import { Home } from "./components/pages/Home";
 
 function App() {
   return (
     <ContextProvider>
-      <StickyGradient/>
+      <StickyGradient />
       <CustomCursor />
-      <Navbar/>
-      <Hero/>
-      <Works/>
-      <Timeline/>
-      <Skills/>
-      <About/>
+      <Navbar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </ContextProvider>
   );
 }

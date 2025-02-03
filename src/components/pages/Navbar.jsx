@@ -33,7 +33,7 @@ const Navbar = () => {
     return (
         <>
             <chakra.Flex h={{ base: "10vh", md: "10vh" }} justifyContent={'space-between'} alignItems={'end'} position='sticky' w={styles.containerWidth} m='auto'>
-                <chakra.Heading fontSize='30' letterSpacing={styles.headingLetterSpacing} className='transparent stroke-black'>AR</chakra.Heading>
+                <chakra.Heading fontSize='30' onClick={() => window.location.href = '/'} letterSpacing={styles.headingLetterSpacing} className='transparent stroke-black'>AR</chakra.Heading>
                 <chakra.IconButton
                     fontSize={48}
                     size="lg"

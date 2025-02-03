@@ -1,0 +1,116 @@
+[
+    {
+      "key": 0,
+      "colSpan": 3,
+      "rowSpan": 1,
+      "duration": {
+        "fromYear": 2021,
+        "toYear": 2023
+      },
+      "title": "Vigiloo",
+      "logo": "vigiloo.png",
+      "tags": ["Logistics", "API Development", "IoT", "Entity Framework"],
+      "body": ".NET project for logistics management. Completed <b>2 API integrations</b> and modeled data for complex Web App. This project involved working closely with the client to understand their specific requirements and deliver a <b>scalable solution</b>.",
+      "tech": ["csharp", "dotnet", "html", "css", "js", "mssql"],
+      "href": "http://vigiloo.es"
+    },
+    {
+      "key": 1,
+      "colSpan": 2,
+      "rowSpan": 1,
+      "duration": {
+        "fromYear": 2022,
+        "toYear": 2022
+      },
+      "title": "Gamarra",
+      "logo": "gamarra.png",
+      "tags": ["Landing page", "Personal trainer", "Bootstrap 5", "Responsive design"],
+      "body": "Landing page for a personal trainer. Built using <b>Bootstrap</b> and <b>SASS</b> for styles and applying <b>responsive design</b> principles. The page includes a contact form for potential clients.",
+      "tech": ["html", "sass", "bootstrap"],
+      "href": "https://agustinredin.github.io/dw41525_agustinredin"
+    },
+    {
+      "key": 2,
+      "colSpan": 2,
+      "rowSpan": 1,
+      "duration": {
+        "fromYear": 2023,
+        "toYear": 2023
+      },
+      "title": "Hypestore",
+      "logo": "hypestore.png",
+      "tags": ["E-Commerce", "UI Design", "Front-end frameworks", "Cloud database"],
+      "body": "Front-end design-oriented <b>E-commerce template</b> built using React and ChakraUI. This project focused on creating a <b>user-friendly interface</b> with smooth animations to enhance the shopping experience.",
+      "tech": ["vite", "react", "reactrouter", "chakraui", "firebase"],
+      "href": "https://hypestore-arg.vercel.app/"
+    },
+    {
+      "key": 3,
+      "colSpan": 3,
+      "rowSpan": 1,
+      "duration": {
+        "fromYear": 2023,
+        "toYear": 2024
+      },
+      "title": "Mymtec",
+      "logo": "mymtec.png",
+      "tags": ["Foreign trade", "Management system", ".NET Core", "MVC Architecture"],
+      "body": "Reforming a 2006 foreign trade system using modern .NET and <b>SPA architecture</b> with advanced performance techniques. This project aimed to <b>streamline processes</b>, improve user experience, and enhance overall efficiency.",
+      "tech": ["csharp", "dotnet", "vb", "html", "css", "js"],
+      "href": "https://www.mymtec.com.ar/"
+    },
+    {
+      "key": 4,
+      "duration": {
+        "fromYear": 2024,
+        "toYear": 2024
+      },
+      "title": "Halo",
+      "logo": "halo.png",
+      "tags": ["Startup", "Landing Page", "Minimalist design"],
+      "body": "Landing page for Halo, a cannabis dispensary. Built with <b>design principles</b> in mind and <b>hand-made requirements</b>.",
+      "tech": ["react", "chakra", "html", "ps", "figma"],
+      "href": "https://halo-landing-29dbpsppj-agustinredins-projects.vercel.app"
+    },
+    {
+      "key": 5,
+      "duration": {
+        "fromYear": 2024,
+        "toYear": 2024
+      },
+      "title": "FireUp",
+      "logo": "fireup.png",
+      "tags": ["Marketing", "Startup", "Figma Prototype"],
+      "body": "Landing page for an up and coming marketing agency. Built using React and Tailwind.",
+      "tech": ["react", "tailwind", "ps", "figma"],
+      "href": "https://fireup.agency/"
+    },
+    {
+      "key": 6,
+      "duration": {
+        "fromYear": 2024,
+        "toYear": 2024
+      },
+      "title": "Manjar2Go",
+      "logo": "m2go.png",
+      "tags": ["Food Industry", "Startup", "Figma Prototype", "Agile workflow"],
+      "body": "Landing page for a Food App from Puerto Rico. Built using React, Tailwind and Framer Motion.",
+      "tech": ["react", "tailwind", "ps", "figma", "framer"],
+      "href": "https://m2go-landing-new.vercel.app"
+    },
+    {
+      "key": 7,
+      "duration": {
+        "fromYear": 2025,
+        "toYear": 2025
+      },
+      "title": "Sprintify",
+      "logo": "sprintify.png",
+      "tags": ["Fullstack App", "SaaS", "B2B"],
+      "body": "FullStack App designed to guide projects and tasks for a team of developers, B2B oriented. Built with React and NextJS",
+      "tech": ["react", "next", "tailwind", "figma"],
+      "last": true,
+      "href": "https://sprintify.vercel.app"
+    }
+  ]
+  

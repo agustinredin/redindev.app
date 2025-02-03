@@ -33,9 +33,9 @@ const About = () => {
                                 <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -120px 0px' }}>
                                     <chakra.Heading fontSize={{ base: '3xl', md: '2xl', lg: '3xl' }}>Agustin</chakra.Heading>
                                     <chakra.Text fontSize={{ base: '2xl', md: '2xl' }} p={'1% 0 6% 0'}>
-                                        I&apos;m Agustin, a <b>21 year-old Fullstack Developer</b> from Argentina. I started this journey in <b>2021</b> and I&apos;ve
-                                        been passionate about Software Development ever since. I&apos;m currently <b>studying an IT Degree in
-                                            University</b> and working a full-time job, while keeping up to date with <b>latest technologies</b>&nbsp;
+                                        I&apos;m Agustin, a <b>ullstack Developer</b> from Argentina. I started this journey in <b>2021</b> and I&apos;ve
+                                        been passionate about Software Development ever since. I&apos;m currently studying an <b> IT Degree</b> in
+                                            <b> University of Buenos Aires</b> and working a full-time job, while keeping up to date with <b>latest technologies</b>&nbsp;
                                         through courses and online education.
                                     </chakra.Text>
                                 </motion.div>
@@ -54,8 +54,7 @@ const About = () => {
                                     <chakra.Heading fontSize={{ base: '3xl', md: '2xl', lg: '3xl' }}>Hobbies</chakra.Heading>
                                     <chakra.Text fontSize={{ base: '2xl', md: '2xl' }} p={'1% 0 6% 0'}>
                                         I like to <b>go out clubbing</b> once in a while.
-                                        I also enjoy <b>lifting weights</b> and have an eye for fashion.
-                                        One of my latest passions include <b>tattoos</b>.
+                                        I love <b>lifting weights</b> and have an eye for fashion. I enjoy cooking from time to time.
                                     </chakra.Text>
                                 </motion.div>
                                 {/*  */}
@@ -75,8 +74,8 @@ const About = () => {
                     </chakra.SimpleGrid>
                 </chakra.Box>
             </chakra.Box>
-            <chakra.Box display='flex' textAlign={'center'} fontSize={{ base: '15', lg: '30' }} justifyContent={'center'} p='1rem' bg='var(--portfolio-orange)' color='white' zIndex={'9998'} position={'absolute'} width='100%' bottom='0px'>
-                Built in 2024 by Agustin Redin. agustintomasredin@gmail.com
+            <chakra.Box display='flex' scrolldelay="50" scrollamount="50" as='marquee' textAlign={'center'} fontSize={{ base: '15', lg: '20' }} justifyContent={'center'} p='1rem' bg='var(--portfolio-orange)' color='white' zIndex={'9998'} position={'absolute'}  width='100%' bottom='0px'>
+                Built in 2024 by Agustin Redin
             </chakra.Box>
         </>
     )
