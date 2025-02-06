@@ -33,7 +33,7 @@ const About = () => {
                                 <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '0px 0px -120px 0px' }}>
                                     <chakra.Heading fontSize={{ base: '3xl', md: '2xl', lg: '3xl' }}>Agustin</chakra.Heading>
                                     <chakra.Text fontSize={{ base: '2xl', md: '2xl' }} p={'1% 0 6% 0'}>
-                                        I&apos;m Agustin, a <b>ullstack Developer</b> from Argentina. I started this journey in <b>2021</b> and I&apos;ve
+                                        I&apos;m Agustin, a <b>Fullstack Developer</b> from Argentina. I started this journey in <b>2021</b> and I&apos;ve
                                         been passionate about Software Development ever since. I&apos;m currently studying an <b> IT Degree</b> in
                                             <b> University of Buenos Aires</b> and working a full-time job, while keeping up to date with <b>latest technologies</b>&nbsp;
                                         through courses and online education.
