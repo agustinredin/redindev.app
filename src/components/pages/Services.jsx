@@ -83,7 +83,7 @@ const Services = () => {
           textDecoration="none !important"
         > */}
         <div className="flex justify-center">
-          <a className="flex group items-center justify-center rounded-xl border-portfolio-black hover:border-portfolio-blue border w-full md:w-fit text-center px-4">
+          <a href='https://linkedin.com/in/agustintomasredin' target='_blank' className="flex group items-center justify-center rounded-xl border-portfolio-black hover:border-portfolio-blue border w-full md:w-fit text-center px-4">
               <div className="group-hover:text-portfolio-blue transition-all opacity-100 delay-75 group-hover:block md:group-hover:opacity-100 text-4xl">
               <Typewriter wrapperTag="p" delay={5000} messages={['Contact me via LinkedIn']} loop={false} />
               </div>
