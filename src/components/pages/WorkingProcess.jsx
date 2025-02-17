@@ -32,7 +32,7 @@ export default function WorkingProcess() {
   return (
     <section className="px-4 py-24 min-h-screen flex items-center">
       <chakra.Box minH={'50vh'} w={styles.containerWidth} m="auto" pb={'5vh'}>
-        <chakra.Heading fontSize={{ base: '10vw', md: '5xl', xl: '7xl' }} className="font-bold mb-24" letterSpacing={styles.headingLetterSpacing}>My working process</chakra.Heading>
+        <chakra.Heading fontSize={{ base: '10vw', md: '5xl', xl: '7xl' }} id='sectionTitle-process' className="font-bold mb-24" letterSpacing={styles.headingLetterSpacing}>My working process</chakra.Heading>
 
         <div className="relative">
           {/* Timeline line */}

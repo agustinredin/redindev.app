@@ -65,7 +65,7 @@ const Skills = () => {
 }
 
   return (
-    <chakra.Box minH={'50vh'} w={styles.containerWidth} m="auto" pb={'5vh'}>
+    <chakra.Box minH={'50vh'} id='skills' w={styles.containerWidth} m="auto" pb={'5vh'}>
             <chakra.Flex align='center' position='relative' mb={{ base: '5vh', md: '7vh' }} h={'20vh'} justifyContent={'center'}>
                 {/* <motion.div variants={styles.titleAnimationVariants} initial='initial' whileInView='animate' viewport={{ once: true, margin: '-200px' }}> */}
                     <chakra.Heading fontSize={{ base: '10vw', md: '5xl', xl: '7xl' }} fontWeight="bold" letterSpacing={styles.headingLetterSpacing}  mb='0.5rem' id='sectionTitle-skills'>

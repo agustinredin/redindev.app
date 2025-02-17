@@ -37,7 +37,7 @@ const Services = () => {
           position="relative"
           mb={{ base: "5vh", md: "7vh", lg: "10vh" }}
           h={"20vh"}
-          id="sectionTitle-timeline"
+          id="sectionTitle-services"
         >
           <motion.div
             variants={styles.titleAnimationVariants}

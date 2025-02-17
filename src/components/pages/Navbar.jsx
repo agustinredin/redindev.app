@@ -10,21 +10,26 @@ const Navbar = () => {
     const navItems = [
         {
             key: 0,
-            title: 'Works',
-            href: 'works'
-        },
-        {
-            key: 1,
-            title: 'Timeline',
-            href: 'timeline'
-        },
-        {
-            key: 2,
             title: 'Skills',
             href: 'skills'
         },
         {
+            key: 1,
+            title: 'Services',
+            href: 'services'
+        },
+        {
+            key: 2,
+            title: 'Projects',
+            href: 'works'
+        },
+        {
             key: 3,
+            title: 'Process',
+            href: 'process'
+        },
+        {
+            key: 4,
             title: 'About me',
             href: 'about'
         }
@@ -96,7 +101,7 @@ const NavLink = ({ item, onClose }) => {
     }
 
     return (
-        <chakra.Heading className='hover-custom' fontSize={{base: '5xl', sm: '7xl', md: '8xl'}} lineHeight={'2 !important'} transitionDuration='0.5s' fontWeight='500' onClick={() => handleClick(item.href)}>{item.title}</chakra.Heading>
+        <chakra.Heading className='hover-custom' fontSize={{base: '2xl', sm: '3xl', md: '4xl'}} lineHeight={'2 !important'} transitionDuration='0.5s' fontWeight='500' onClick={() => handleClick(item.href)}>{item.title}</chakra.Heading>
     )
 }
 
