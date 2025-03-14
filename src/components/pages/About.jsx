@@ -24,7 +24,7 @@ const About = () => {
                     <chakra.SimpleGrid columns={{ base: 2, lg: 3 }}>
                         <chakra.GridItem gridColumn={{ base: 'span 2', lg: 'span 1' }} h={{ base: '40vh', lg: 'calc(80vh - 10vmin)' }} display='flex' alignItems={{ base: 'center', lg: 'baseline' }} justifyContent={{ base: 'center', lg: 'right' }}>
                             <chakra.Box w={{ base: "40vw", lg: "15rem" }} h={{ base: "40vw", lg: "15rem" }} as="button" overflow='hidden' boxShadow={'2xl'} rounded={'full'} border='5px solid var(--portfolio-orange)' mr={{ base: '0', lg: '2rem' }} mb={{ base: '5vh', lg: '0' }}>
-                                <chakra.Image src='foto hero.png' w='100%' h='100%' objectFit='cover'>
+                                <chakra.Image src='foto cv nueva adaptada portfolio mar25.png' w='100%' h='100%' objectFit='cover'>
                                 </chakra.Image>
                             </chakra.Box>
                         </chakra.GridItem>
