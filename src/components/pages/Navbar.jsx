@@ -90,7 +90,6 @@ const Navbar = () => {
 }
 
 const NavLink = ({ item, onClose }) => {
-    console.log(item, onClose)
     const handleClick = (tag) => {
         const section = document.getElementById(`sectionTitle-${tag}`)
         if(section)
