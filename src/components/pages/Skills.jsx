@@ -30,7 +30,7 @@ const Skills = () => {
     { icon: <SiChakraui color="var(--portfolio-orange"/>, title: 'ChakraUI' },
     { icon: <SiCss3 color="var(--portfolio-orange"/>, title: 'CSS3' },
     { icon: <SiCsharp color="var(--portfolio-orange"/>, title: 'C#' },
-    { icon: <SiDotnet color="var(--portfolio-orange"/>, title: '.NET Framework' },
+    { icon: <SiDotnet color="var(--portfolio-orange"/>, title: '.NET Core' },
     { icon: <SiExpress color="var(--portfolio-orange"/>, title: 'Express' },
     { icon: <SiFirebase color="var(--portfolio-orange"/>, title: 'Firebase' },
     { icon: <SiHtml5 color="var(--portfolio-orange"/>, title: 'HTML5' },
